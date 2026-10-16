@@ -1,7 +1,19 @@
-# Bali honeymoon website — Codex handoff
+# Bali honeymoon website — Codex → Sites
 
-`index.html` is the most recent existing schedule-focused source. It still has **outdated 10/30 and 11/1 arrangements**; please apply all corrections in `CODEX_PROMPT.md` before deploying.
+## 목표
+코덱스가 **실제로 작동하는** 발리 신혼여행 웹앱을 완성하면 **ChatGPT @Sites로 미리보기 및 게시**합니다. **Render 배포는 하지 않습니다.**
 
-For local preview: open index.html directly or run `python -m http.server 8000` in this folder.
+## 현재 상태
+- `index.html`은 **수정 전 초안**입니다. 10/30·11/1 일부 일정이 구버전일 수 있습니다.
+- 먼저 `CODEX_PROMPT.md`의 날짜·구글맵·쇼핑·할로윈·UI 요구사항을 모두 구현하세요.
+- 작업한 내용을 저장소 `main`에 반영하고 날짜 선택, 쇼핑 전환, 지도 경로 버튼을 브라우저에서 검증하세요.
 
-For Render Static Site: connect the repository, build command empty, publish directory `.`.
+## 로컬 미리보기
+`index.html`을 브라우저로 열거나 `python -m http.server 8000`을 실행합니다.
+
+## 최종 게시 절차
+1. **Codex:** 웹사이트 개선 및 브라우저 테스트, 최신 소스 GitHub 반영.
+2. **Sites:** ChatGPT에서 `@Sites`에 최종 소스와 명세를 전달해 웹사이트 미리보기를 생성 (연결 가능 범위에 따라 파일 직접 첨부/전달 필요).
+3. **사용자:** 미리보기 승인 후 Sites의 게시 기능으로 공개 링크 생성.
+
+**주의:** GitHub에 파일을 올리는 것은 사이트 게시와 다릅니다. Sites 연동·게시 가능 여부를 확인하기 전 게시 완료로 안내하지 마세요. Render·GitHub Pages 등을 임의로 설정하지 마세요.
