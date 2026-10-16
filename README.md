@@ -39,3 +39,10 @@ python tools/build_sites.py
 ## ChatGPT @Sites
 
 `python tools/build_sites.py`로 생성한 **`sites/index.html`**을 Sites에 첨부하세요. 자세한 절차와 복사할 요청은 [SITES_HANDOFF.md](SITES_HANDOFF.md)에 있습니다. Sites 도구가 이 환경에 없어 직접 가져오기·미리보기·공개 게시를 확인하지 않았습니다. 사용자 미리보기 승인 후 Sites에서 게시합니다. GitHub 저장과 공개 게시를 구분합니다.
+
+## Sites에 전달할 단일 HTML (준비 완료)
+- **최종 단일 파일:** `sites/index.html` — CSS/JS가 모두 포함되어 있어 이 파일 하나만 전달하면 됩니다.
+- **GitHub 파일 보기:** https://github.com/jsb9913-pixel/bali/blob/main/sites/index.html
+- **다운로드:** GitHub에서 위 파일을 열고 **Download raw file**을 누른 후 ChatGPT 일반 채팅에서 `@Sites`를 선택해 파일을 첨부하세요.
+- 코덱스 클라우드 경로 `/workspace/bali/sites/index.html`은 ChatGPT의 파일 첨부 경로가 아닙니다.
+- **게시 전** Sites 미리보기에서 날짜 선택/지도 경로/모바일 UI를 확인하세요.
